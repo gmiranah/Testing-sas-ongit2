@@ -1,0 +1,33 @@
+$primary-color: blue;
+$secondary-color: purple;
+$teritiary-color: orange;
+@mixin btn{
+    width: 30%;
+    padding: 5% %10%;
+    border-radius: 25px 25px;
+    display: block;
+    margin: 3% auto;
+}
+.header{
+    font-size: 36px;
+    color: $primary-color;
+   
+}
+.one{
+    font-size: 15px;
+    color: $primary-color;
+    background-color: antiquewhite;
+    @include btn;
+}
+.two{
+    font-size: 22px;
+    color: $primary-color;
+    background-color: bisque;
+    @include btn;
+}
+.three{
+    font-size: 28px;
+    color: $primary-color;
+    background-color: lightblue;
+    @include btn;
+}

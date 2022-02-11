@@ -1,0 +1,39 @@
+.header {
+  font-size: 36px;
+  color: blue;
+}
+
+.one {
+  font-size: 15px;
+  color: blue;
+  background-color: antiquewhite;
+  width: 30%;
+  padding: 5%;
+  border-radius: 25px 25px;
+  display: block;
+  margin: 3% auto;
+}
+
+.two {
+  font-size: 22px;
+  color: blue;
+  background-color: bisque;
+  width: 30%;
+  padding: 5%;
+  border-radius: 25px 25px;
+  display: block;
+  margin: 3% auto;
+}
+
+.three {
+  font-size: 28px;
+  color: blue;
+  background-color: lightblue;
+  width: 30%;
+  padding: 5%;
+  border-radius: 25px 25px;
+  display: block;
+  margin: 3% auto;
+}
+
+/*# sourceMappingURL=style.css.map */
