@@ -31,3 +31,9 @@ $teritiary-color: orange;
     background-color: lightblue;
     @include btn;
 }
+.four{
+    font-size: 22px;
+    color: $primary-color;
+    background-color: lavender;
+    @include btn;
+}   
